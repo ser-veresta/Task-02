@@ -1,0 +1,13 @@
+1. Load the rest countries data using your html and script.js file and run a for loop on the data and print all the country name in the console.
+
+ 
+2. Give a write up on Difference between copy by value and copy by reference.
+
+In copy by value when a varibale a is assigned to b and b is changed the value of b doesn't change but in case of call by reference when
+value of b is change the value of a changes with it. '=' operator uses copy by value onn primitive data types and copy by reference in 
+objects.
+
+3. How to copy by value a composite datatype (array+objects).
+
+U can copy by value an composite datatype by using the Object.assign() fuction or u can copy the individual elements of the composite datatypes
+to a new object by looping through it.
