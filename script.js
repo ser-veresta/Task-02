@@ -11,6 +11,7 @@ req.send();
 //this function will only be triggered when the data has been received successfully
 req.onload = function(){
     let data = JSON.parse(this.response);
+    //to print the names of the countries in the response
     data.forEach((item) => {console.log(item.name);});
 
 }
